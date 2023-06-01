@@ -42,7 +42,7 @@ Each of these generators yields numbers from 1 to 'n'.
 Example:
 list(map(list, generators(3))) -> [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
 """
-def generators(n: int) -> Generator[Generator[int]]:
+def generators(n: int) -> Generator[Generator[int, None, None], None, None]:
     pass
 
 """

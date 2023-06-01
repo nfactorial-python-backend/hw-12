@@ -47,7 +47,7 @@ Write a function "squares_gen(n: int) -> Generator[int]" that uses a generator e
 Example:
 list(squares_gen(5)) -> [0, 1, 4, 9, 16]
 """
-def squares_gen(n: int) -> Generator[int]:
+def squares_gen(n: int) -> Generator[int, None, None]:
     pass
 
 """
@@ -87,7 +87,7 @@ Write a function "fibonacci_gen(n: int) -> Generator[int]" that uses a generator
 Example:
 list(fibonacci_gen(10)) -> [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 """
-def fibonacci_gen(n: int) -> Generator[int]:
+def fibonacci_gen(n: int) -> Generator[int, None, None]:
     pass
 
 """
@@ -127,7 +127,7 @@ Write a function "factorials_gen(n: int) -> Generator[int]" that uses a generato
 Example:
 list(factorials_gen(5)) -> [1, 2, 6, 24, 120]
 """
-def factorials_gen(n: int) -> Generator[int]:
+def factorials_gen(n: int) -> Generator[int, None, None]:
     pass
 
 """
@@ -157,7 +157,7 @@ Write a function "reverse_gen(lst: List[Any]) -> Generator[Any]" that returns a 
 Example:
 list(reverse_gen([1, 2, 3, 4, 5])) -> [5, 4, 3, 2, 1]
 """
-def reverse_gen(lst: List[Any]) -> Generator[Any]:
+def reverse_gen(lst: List[Any]) -> Generator[Any, None, None]:
     pass
 
 """
@@ -187,7 +187,7 @@ Write a function "primes_gen(n: int) -> Generator[int]" that uses a generator ex
 Example:
 list(primes_gen(10)) -> [2, 3, 5, 7]
 """
-def primes_gen(n: int) -> Generator[int]:
+def primes_gen(n: int) -> Generator[int, None, None]:
     pass
 
 """
